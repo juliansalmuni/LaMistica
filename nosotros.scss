@@ -1,0 +1,62 @@
+.nosotros {
+    background-color: rgba(109, 57, 108, 0.2);
+    padding-bottom: 0.1em;
+
+}
+
+.nosotros__p--style {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 1em;
+
+}
+
+.nosotros__img {
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 4em;
+    border: solid 1px $Color1;
+    border-radius: 30%;
+}
+
+.card {
+    background-color: rgba(109, 57, 108, 0.7) !important;
+    padding-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    border-radius: 100% !important;
+
+}
+
+.card img {
+    width: 75%;
+    height: 70%;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
+.card-body {
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card-tittle {
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.row {
+    width: 100%;
+}

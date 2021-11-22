@@ -1,0 +1,68 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    height: 75vh;
+}
+
+
+.d-flex {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;    
+    position: fixed;
+    bottom: 2.3%;
+}
+
+.d-flex h4 {
+    color: $Color1;
+    font-size: small;
+    }
+
+.div__boton--style i {
+    margin-top: 0.2em;
+    text-decoration: none;
+    color: $Color1;
+    font-size: x-large;
+    
+}
+
+
+
+.divBounce {
+    display: inline-block;
+    position: fixed;
+    top: 15%;
+    width: 100%;
+    text-align: right;
+    padding-right: 2em;
+    z-index: 1;
+    color: blanchedalmond;
+    font-weight: bolder;
+
+}
+
+.textBounce1 {
+    display: inline-block;
+}
+
+.textBounce2 {
+    display: inline-block;
+    animation: bounce2 .8s alternate infinite ease-in;
+}
+
+.textBounce3 {
+    display: inline-block;
+}
+
+@keyframes bounce2 {
+    0% {
+        transform: translateY(-125%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}

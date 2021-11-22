@@ -1,0 +1,81 @@
+.bodyContacto {
+    display: flex;
+    flex-flow: row wrap;
+    background-image: url(img/cincoburger.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-top: 2em;
+}
+
+
+
+.h1--style {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 2em;
+    border: none;
+    margin: auto;
+    text-align: left;
+    margin-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+
+.formularioFondo {
+    background-color: rgba(109, 57, 108, 0.5);
+    width: 100%;
+    height: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-right: 4em;
+    margin-bottom: 3em;
+    padding-bottom: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.div__form--margin {
+    margin-right: 25%;
+}
+
+
+.labelForm {
+    color: #E5E5E5;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif
+}
+
+.datosForm {
+    width: 100%;
+    height: auto;
+    line-height: 100%;
+    margin-left: 2em;
+    margin-top: 0.2em;
+
+}
+
+.botonesForm {
+    background-color: rgba(109, 57, 108, 0.7);
+    margin-top: 0.2em;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 2px #6d396c;
+    color: #E5E5E5;
+    text-transform: uppercase;
+    padding: 0.5em;
+    width: auto;
+}
+
+
+
+.mapa__iframe--size {
+    height: 70%;
+    width: 120%;
+
+}

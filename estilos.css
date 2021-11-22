@@ -1,0 +1,366 @@
+/*--font-family: 'Montserrat', sans-serif;--*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav__img--size {
+  height: 3em;
+  width: 3em;
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.nav--color {
+  color: #6d396c !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  height: 75vh;
+}
+
+.d-flex {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  position: fixed;
+  bottom: 2.3%;
+}
+
+.d-flex h4 {
+  color: #6d396c;
+  font-size: small;
+}
+
+.div__boton--style i {
+  margin-top: 0.2em;
+  text-decoration: none;
+  color: #6d396c;
+  font-size: x-large;
+}
+
+.divBounce {
+  display: inline-block;
+  position: fixed;
+  top: 15%;
+  width: 100%;
+  text-align: right;
+  padding-right: 2em;
+  z-index: 1;
+  color: blanchedalmond;
+  font-weight: bolder;
+}
+
+.textBounce1 {
+  display: inline-block;
+}
+
+.textBounce2 {
+  display: inline-block;
+  animation: bounce2 0.8s alternate infinite ease-in;
+}
+
+.textBounce3 {
+  display: inline-block;
+}
+
+@keyframes bounce2 {
+  0% {
+    transform: translateY(-125%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  background-image: url(img/logoheader.PNG);
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+footer div {
+  font-size: xx-small;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__span--color {
+  color: #ce4747;
+}
+
+.carta {
+  background-image: url(img/logoheader.PNG);
+  background-position: center;
+  background-repeat: repeat;
+  border-top: solid 1px #6d396c;
+}
+
+.carta h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #6d396c;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bolder;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+.tabla1 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.tabla1 th {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #6d396c;
+  font-weight: bolder;
+  text-align: center;
+  border-top: solid #fff 5px;
+  height: auto;
+  padding: 0.5em;
+}
+
+.tabla1 td {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #6d396c;
+  font-weight: bolder;
+  height: auto;
+  text-align: justify;
+  border-top: solid #fff 5px;
+  padding: 0.5em;
+}
+
+.tabla2 {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Montserrat", sans-serif;
+  color: #6d396c;
+  font-weight: bolder;
+  height: auto;
+  text-align: center;
+  border: solid #6d396c 1.5px;
+  padding: 0.5em;
+}
+
+.tabla3 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+.tabla3 th {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  border: solid #fff 0.5px;
+  background-color: #6d396c;
+  font-weight: bolder;
+  height: auto;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.tabla3 td {
+  font-family: "Montserrat", sans-serif;
+  color: #6d396c;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bolder;
+  border: solid #6d396c 0.5px;
+  height: auto;
+  text-align: justify;
+  padding: 0.5em;
+}
+
+.bodyContacto {
+  display: flex;
+  flex-flow: row wrap;
+  background-image: url(img/cincoburger.jpg);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  padding-top: 2em;
+}
+
+.h1--style {
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 2em;
+  border: none;
+  margin: auto;
+  text-align: left;
+  margin-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.formularioFondo {
+  background-color: rgba(109, 57, 108, 0.5);
+  width: 100%;
+  height: auto;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-right: 4em;
+  margin-bottom: 3em;
+  padding-bottom: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.div__form--margin {
+  margin-right: 25%;
+}
+
+.labelForm {
+  color: #E5E5E5;
+  text-transform: capitalize;
+  position: relative;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.datosForm {
+  width: 100%;
+  height: auto;
+  line-height: 100%;
+  margin-left: 2em;
+  margin-top: 0.2em;
+}
+
+.botonesForm {
+  background-color: rgba(109, 57, 108, 0.7);
+  margin-top: 0.2em;
+  text-align: center;
+  border-radius: 5px;
+  border: solid 2px #6d396c;
+  color: #E5E5E5;
+  text-transform: uppercase;
+  padding: 0.5em;
+  width: auto;
+}
+
+.mapa__iframe--size {
+  height: 70%;
+  width: 120%;
+}
+
+.nosotros {
+  background-color: rgba(109, 57, 108, 0.2);
+  padding-bottom: 0.1em;
+}
+
+.nosotros__p--style {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align: justify;
+  padding: 1em;
+}
+
+.nosotros__img {
+  width: 80%;
+  height: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 4em;
+  border: solid 1px #6d396c;
+  border-radius: 30%;
+}
+
+.card {
+  background-color: rgba(109, 57, 108, 0.7) !important;
+  padding-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+  border-radius: 100% !important;
+}
+
+.card img {
+  width: 75%;
+  height: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.card-body {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-tittle {
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.row {
+  width: 100%;
+}
+
+.galeria {
+  width: 100%;
+  margin: auto !important;
+}
+
+.galeria img {
+  width: 95%;
+  height: 90%;
+}
+
+.galeria img:hover {
+  border: solid 1px #6d396c;
+  transform: scale(1.02);
+}
+
+.galeria__col--padding {
+  padding: 1%;
+  margin: 0 !important;
+}
+
+.galeria__h1--style {
+  font-family: "Montserrat", sans-serif;
+  color: #6d396c;
+  font-weight: bolder;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.galeria__p--style {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

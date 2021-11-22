@@ -1,0 +1,39 @@
+.galeria {
+    width: 100%;
+    margin: auto !important;
+
+}
+
+.galeria img {
+    width: 95%;
+    height: 90%;
+}
+
+.galeria img:hover {
+    border: solid 1px $Color1;
+    transform: scale(1.02);
+}
+
+.galeria__col--padding {
+    padding: 1%;
+    margin: 0 !important;
+}
+
+.galeria__h1--style {
+    font-family: 'Montserrat', sans-serif;
+    color: $Color1;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 0.5em;
+
+}
+
+.galeria__p--style {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+
+}

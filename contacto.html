@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <meta name="description" content="Contacto con la Mistica. Dejanos tu mensaje">
+    <meta name="keywords" content="contacto, mensaje, ubicacion">
+
+
+    <!----Estilos---->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/dc99289480.js" crossorigin="anonymous"></script>
+
+    <!----Bootsrap---->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--------------------------------------- HEADER --------------------------------------->
+    <header>
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <!-- Brand -->
+            <a class="navbar-brand nav--color" href="index.html"><img src="img/logoheader.PNG" alt="logo"
+                    class="img-fluid nav__img--size"> LA MISTICA. BB</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler nav--color" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon nav--color"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav--color" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav--color" href="carta.html">Carta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav--color" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav--color" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav--color" href="nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--------------------------------------- CONTACTO ---------------------->
+    <div class="bodyContacto">
+        <div class="formularioFondo">
+            <div>
+                <form action="action" class="div__form--margin">
+                    <h1 class="h1--style">ESCRIBINOS</h1>
+                    <div class="datosForm">
+                        <label for="name" class="labelForm">Nombre y apellido:</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="datosForm">
+                        <label for="email" class="labelForm">Email:</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="datosForm">
+                        <label for="telefono" class="labelForm">Telefono</label>
+                        <input type="tel" name="telefono" id="telefono">
+                    </div>
+
+                    <div class="datosForm">
+                        <label for="mensaje" class="labelForm">Mensaje:</label> <br>
+                        <textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea>
+                    </div>
+
+                    <div class="datosForm">
+                        <button type="reset" class="botonesForm">Borrar</button>
+                        <button type="submit" class="botonesForm">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div>
+                <div class="h1--style">O VISITANOS!</div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.652677701964!2d-64.2821321855644!3d-31.340963799742294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329d9ca13b743b%3A0xf61c24cca823f8d1!2sEstaci%C3%B3n%20Arg%C3%BCello%20Padel%20Club!5e0!3m2!1ses-419!2sar!4v1633567780676!5m2!1ses-419!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy" class="mapa__iframe--size"></iframe>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--------------------------------------- SOCIAL NAV---------------------->
+    <div class="d-flex flex-row justify-content-around">
+        <div class="div__boton--style"><a href="#" data-toggle="popover"
+                data-content="Martes a Domingo de 20:00 a 23:30hs"><i class="fas fa-clock"></i>
+                <h4>Horario</h4>
+            </a></div>
+        <div class="div__boton--style"><a
+                href="https://www.google.com/maps?ll=-31.340278,-64.280287&z=16&t=m&hl=es-419&gl=AR&mapclient=embed&cid=17734089894091028689"
+                target="_blank" class="botones__a--style"><i class="fas fa-map-pin"></i>
+                <h4>Dirección</h4>
+            </a></div>
+        <div class="div__boton--style"><a href="https://api.whatsapp.com/send?phone=5493515552507" target="_blank"><i
+                    class="fab fa-whatsapp"></i>
+                <h4>Whatsapp</h4>
+            </a></div>
+        <div class="div__boton--style"><a href="https://www.instagram.com/lamistica.bb/" target="_blank"><i
+                    class="fab fa-instagram-square"></i>
+                <h4>Instagram</h4>
+            </a></div>
+    </div>
+
+    <!--------------------------------------- FOOTER ------------------------------------->
+    <footer>
+        <div>
+            Desarrollado por Julián Salmuni - © Copyright <span class="footer__span--color"> LA MISTICA BB 2021 </span>
+            - TODOS LOS DERECHOS RESERVADOS
+        </div>
+
+    </footer>
+
+
+    <!--Bootsrap-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+.carta {
+    background-image: url(img/logoheader.PNG);
+    background-position: center;
+    background-repeat: repeat;
+    border-top: solid 1px $Color1;
+}
+
+.carta h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: $Color1;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bolder;
+    font-size: $size1 *2;
+    text-align: center;
+    padding-top: $size1 *0.3;
+    padding-bottom: $size1 *0.3;
+
+}
+
+.tabla1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.tabla1 th {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #6d396c;
+    font-weight: bolder;
+    text-align: center;
+    border-top: solid #fff 5px;
+    height: auto;
+    padding: 0.5em;
+}
+
+.tabla1 td {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: $Color1;
+    font-weight: bolder;
+    height: auto;
+    text-align: justify;
+    border-top: solid #fff 5px;
+    padding: 0.5em;
+}
+
+.tabla2 {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: $Color1;
+    font-weight: bolder;
+    height: auto;
+    text-align: center;
+    border: solid $Color1 1.5px;
+    padding: 0.5em;
+}
+
+.tabla3 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.tabla3 th {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border: solid #fff 0.5px;
+    background-color: $Color1;
+    font-weight: bolder;
+    height: auto;
+    text-align: center;
+    padding: 0.5em;
+
+}
+
+.tabla3 td {
+    font-family: 'Montserrat', sans-serif;
+    color: $Color1;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-weight: bolder;
+    border: solid $Color1 0.5px;
+    height: auto;
+    text-align: justify;
+    padding: 0.5em;
+
+}
+

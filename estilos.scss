@@ -1,0 +1,37 @@
+/*--font-family: 'Montserrat', sans-serif;--*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$Color1:#6d396c;
+$Font1:'Montserrat',
+sans-serif;
+$size1: 1em;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "header.scss";
+@import "bodyindex.scss";
+@import "footer.scss";
+@import "carta.scss";
+@import "contacto.scss";
+@import "nosotros.scss";
+@import "galeria.scss";
