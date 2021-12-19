@@ -39,7 +39,8 @@
 }
 
 .div__form--margin {
-    margin-right: 25%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 
@@ -57,19 +58,20 @@
     line-height: 100%;
     margin-left: 2em;
     margin-top: 0.2em;
-
-}
+    display: flex;
+    flex-direction: column;
+    }
 
 .botonesForm {
     background-color: rgba(109, 57, 108, 0.7);
-    margin-top: 0.2em;
+    margin-top: 0.2em 5.6em;
     text-align: center;
     border-radius: 5px;
     border: solid 2px #6d396c;
     color: #E5E5E5;
     text-transform: uppercase;
     padding: 0.5em;
-    width: auto;
+    width: 25% auto;
 }
 
 
